@@ -365,3 +365,102 @@ about us page begins
     border-radius: 20px;
     box-shadow: 0 2px 3px 3px gainsboro; 
 }
+/*
+about page ends
+=====================================================================
+services page begins
+*/
+.ourservices img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+}
+.ourservices h4 a{
+    text-decoration: none;
+    color: #0f9e99;
+}
+.ourservices .soloservices{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+}
+.ourservices .soloservices:hover{
+    background-color: #0f9e99;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+    cursor: alias;
+}
+.ourservices .soloservices:hover h4 a,
+.ourservices .soloservices:hover p{
+    color: white;
+}
+.ourwork ul{
+    list-style: none;
+    padding-left: 0;
+}
+.ourwork ul li{
+    padding: 3px 0;
+}
+.ourwork ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.ourwork ul li a:hover{
+    text-decoration: underline;
+    color: #0f9e99;
+}
+.ourwork ul li i{
+    color: #0f9e99;
+}
+.systems{
+    background-color: #0f9e99;
+}
+.systems span{
+    color: #efe9e0;
+}
+.systems a{
+    border: 1px solid #0f9e99;
+    border-radius: 25px;
+    background-color: white;
+    color: #0f9e99;
+    margin-top: 10px;
+}
+.systems a:hover{
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: #0f9e99;
+    color: white;
+    margin-top: 10px;
+}
+/*
+services page ends
+=====================================================================
+solutions page begins
+*/
+.top-solution h5{
+    color: #0f9e99;
+}
+.solutions h5 , 
+.solutions h6{
+    color: #0f9e99;
+}
+.solutions ul{
+    list-style: none;
+    padding-left: 0;
+}
+.solutions ul li{
+    padding: 3px 0;
+}
+.solutions ul li i{
+    color: #0f9e99;
+}
+.solutions img{
+    width: 100%;
+    height: 350px;
+}
+.solu{
+    border-top: 3px solid #0f9e99;
+    border-bottom: 3px solid #0f9e99;
+}
